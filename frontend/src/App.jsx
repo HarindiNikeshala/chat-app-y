@@ -1,11 +1,12 @@
 import './App.css'
+import Login from './pages/login/Login'
 
 function App() {
 
   return (
-    <>
-      <button class="btn btn-primary">One</button>
-    </>
+    <div className='p-4 h-screen flex items-center justify-center'>
+      <Login/>
+    </div>
   )
 }
 
